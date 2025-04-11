@@ -7,7 +7,7 @@
 vim.opt.number = true
 -- You can also add relative line numbers, to help with jumping.
 --  Experiment for yourself to see if you like it!
--- vim.opt.relativenumber = true
+vim.opt.relativenumber = true
 
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.opt.mouse = 'a'
@@ -50,7 +50,7 @@ vim.opt.splitbelow = true
 --  See `:help 'list'`
 --  and `:help 'listchars'`
 vim.opt.list = true
-vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
+vim.opt.listchars = { tab = '  ', trail = '·', nbsp = '␣' }
 
 -- Preview substitutions live, as you type!
 vim.opt.inccommand = 'split'
@@ -67,3 +67,7 @@ vim.opt.scrolloff = 10
 vim.opt.confirm = true
 
 -- vim: ts=2 sts=2 sw=2 et
+
+vim.opt.tabstop = 4 -- number of visual spaces per TAB
+vim.opt.shiftwidth = 4 -- number of spaces to use for each step of (auto)indent
+vim.opt.expandtab = true -- convert tabs to spaces
