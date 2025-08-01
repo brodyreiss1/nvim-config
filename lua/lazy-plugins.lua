@@ -5,8 +5,6 @@ require('lazy').setup({
 
   -- require 'kickstart/plugins/which-key',
 
-  require 'kickstart/plugins/nvim-tree',
-
   require 'kickstart/plugins/copilot',
 
   require 'kickstart/plugins/telescope',

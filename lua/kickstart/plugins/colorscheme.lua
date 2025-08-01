@@ -1,12 +1,13 @@
 return {
   {
-    'rose-pine/nvim',
-    name = 'rose-pine',
+    'ellisonleao/gruvbox.nvim',
     priority = 1000,
     config = function()
-      ---@diagnostic disable-next-line: missing-fields
-      require('rose-pine').setup {}
-      vim.cmd.colorscheme 'rose-pine'
+      require('gruvbox').setup {
+        transparent_mode = true,
+      }
+      vim.o.background = 'dark' -- or "light"
+      vim.cmd.colorscheme 'gruvbox'
     end,
   },
 }
