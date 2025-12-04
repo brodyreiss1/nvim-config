@@ -40,4 +40,7 @@ return {
       end, { desc = 'Harpoon file 4' })
     end,
   },
+  {
+    'ThePrimeagen/vim-be-good',
+  },
 }
